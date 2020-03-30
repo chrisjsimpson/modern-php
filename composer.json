@@ -1,0 +1,33 @@
+{
+  "name": "chrisjsimpson/scanner",
+  "description": "Scan URLs from a CSV file an report inaccessible URLs",
+  "keywords": ["url", "scanner", "csv"],
+  "homepage": "http://example.com",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Josh Lockhart",
+      "homepage": "https://github.com/codeguy",
+      "role": "Developer"
+    },
+    {
+      "name": "Chris Simpson",
+      "homepage": "https://github.com/chrisjsimpson"
+    }
+  ],
+  "require": {
+    "php" : ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3"
+  },
+  "suggest": {
+    "league/csv": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chrisjsimpson\\ModernPHP\\": "src/"
+    }
+  }
+}
