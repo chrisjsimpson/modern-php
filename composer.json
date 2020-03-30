@@ -3,7 +3,7 @@
   "description": "Scan URLs from a CSV file an report inaccessible URLs",
   "keywords": ["url", "scanner", "csv"],
   "homepage": "http://example.com",
-  "license": "GPLv3",
+  "license": "MIT",
   "authors": [
     {
       "name": "Josh Lockhart",
